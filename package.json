@@ -7,5 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tiago Urbano",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiagourbano/vue-cli-plugin-generate.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/tiagourbano/vue-cli-plugin-generate/issues"
+  },
+  "homepage": "https://github.com/tiagourbano/vue-cli-plugin-generate#readme"
 }

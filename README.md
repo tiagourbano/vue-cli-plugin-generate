@@ -5,13 +5,14 @@ A ideia desse plugin veio quando um pequeno projeto já existente começou
 a ficar muito grande, gerando uma confusão na organização do projeto.
 
 Veja abaixo como ficará seu código modularizado.
+
 ![Module Structure](images/module-structure.png)
 ![Module Structure](images/module-structure-1.png)
 
 
 
 ## Como usar
-######Garanta apenas que você esteja na pasta raiz do seu projeto.
+#####Garanta apenas que você esteja na pasta raiz do seu projeto.
 
 Você só precisa rodar o comando abaixo
 ```shell
@@ -20,7 +21,7 @@ npx vue-cli-service generate --name module-name
 
 _Reparem que o nome do modulo deve ser junto e separado por hífen._
 
-Por default, o plugin irá gerar a pasta e os arquivos específicos para as rotas e os stores.
+Por default, o plugin irá gerar as pastas e os arquivos específicos para as rotas e os stores.
 Se você não quiser que o plugin gere a pasta e os arquivos específicos de rota e do store, basta passar um OU dois parâmetros, que são o --route e o --store, como no exemplo abaixo.
 ```shell
 npx vue-cli-service generate --name module-name --route false --store false
